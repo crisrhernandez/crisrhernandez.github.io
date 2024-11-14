@@ -1,0 +1,95 @@
+body {
+  font-family: 'Lucida Grande', sans-serif;
+  position: relative;
+  min-height: 100vh;
+  font-size: 1em;
+}
+
+/* Styles specific to the homepage */
+.homepage {
+  background-image: url('images/Docent_site_sample_hello_green.png');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #819023;
+  text-decoration: none;
+}
+
+p {
+  text-align: left;
+  font-size: 0.66em;
+  line-height: 1.5em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.column {
+  box-sizing: border-box;
+  width: 300px; /* Fixed width of 300px */
+  margin: 0.125em;
+  padding: 0.375em;
+  vertical-align: top;
+}
+
+.column p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .column:nth-child(3) {
+  margin-left: auto;
+}
+
+p + p.linebreak {
+  margin-top: .6em; /* Adjust the margin-top value as needed */
+}
+
+.article_column {
+  width: 80%; /* Adjust as needed */
+  max-width: 500px; /* Adjust as needed */
+  margin: 0 auto; /* Center the column */
+  padding: 20px; /* Adjust as needed */
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+.article_column p {
+  text-align: left;
+  font-size: 0.80em;
+  line-height: 1.5em;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.625em;
+}
+
+@media only screen and (max-width: 925px) {
+  .container .column:nth-child(3) {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column p {
+    font-size: 0.76em;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .column {
+    width: calc(100% - 0.25em);
+    margin: 0.125em 0;
+  }
+}
