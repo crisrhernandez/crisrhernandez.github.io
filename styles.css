@@ -7,21 +7,24 @@ body {
 
 /* Styles specific to the homepage */
 .homepage {
-  background-image: url('images/Docent_site_sample_hello_green.png');
+  /* background-image: url('images/Docent_site_sample_hello_green.png'); */
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: #3c473d;
 }
 
 a {
-  color: #819023;
+  color: #ccf1cf;
   text-decoration: none;
 }
 
 p {
+  color: white;
   text-align: left;
   font-size: 0.66em;
   line-height: 1.5em;
+  letter-spacing: .01rem;
 }
 
 .container {
