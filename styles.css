@@ -19,6 +19,19 @@ a {
   text-decoration: none;
 }
 
+/* a:hover {
+  color: #9da39e;
+} */
+
+.past_event_link {
+  color: white;
+  text-decoration: none;
+}
+
+.past_event_link:hover {
+  color: #9da39e;
+}
+
 p {
   color: white;
   text-align: left;
