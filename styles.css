@@ -23,8 +23,53 @@ p {
   color: white;
   text-align: left;
   font-size: 0.66em;
-  line-height: 1.5em;
+  line-height: 1.6em;
   letter-spacing: .01rem;
+}
+
+.activitylog p {
+  color: white;
+  font-size: 0.58em;
+  line-height: 2em;
+  border-bottom: 1px solid #9da39e;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.round {
+  background-color: #9da39e;
+  color: #3c473d;
+  padding: 0.08em 0.4em;
+  border-radius: 0.4em;
+  display: inline-block;
+  font-size: inherit;
+  line-height: normal;
+  height: auto;
+  vertical-align: baseline;
+}
+
+.round_new {
+  background-color: #88a28a;
+  color: #3c473d;
+  padding: 0.08em 0.4em;
+  border-radius: 0.4em;
+  display: inline-block;
+  font-size: inherit;
+  line-height: normal;
+  height: auto;
+  vertical-align: baseline;
+}
+
+.soon {
+  background-color: #ccf1cf;
+  color: #3c473d;
+  padding: 0.08em 0.4em;
+  border-radius: 0.4em;
+  display: inline-block;
+  font-size: inherit;
+  line-height: normal;
+  height: auto;
+  vertical-align: baseline;
 }
 
 .container {
