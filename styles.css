@@ -85,6 +85,10 @@ p {
   vertical-align: baseline;
 }
 
+.fadedtext {
+  color: #9da39e;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
