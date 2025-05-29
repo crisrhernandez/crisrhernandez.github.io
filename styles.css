@@ -73,6 +73,18 @@ p {
   vertical-align: baseline;
 }
 
+.round_play {
+  background-color: #9da39e;
+  color: #3c473d;
+  padding: 0.08em 0.6em;
+  border-radius: .8em;
+  display: inline-block;
+  font-size: inherit;
+  line-height: normal;
+  height: auto;
+  vertical-align: baseline;
+}
+
 .soon {
   background-color: #ccf1cf;
   color: #3c473d;
