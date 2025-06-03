@@ -177,9 +177,21 @@ footer {
     font-size: 0.75em;
   }
 
-  .bulletin {
+  .round {
     font-size: 0.75em;
-}
+  }
+
+  .round_new {
+    font-size: 0.75em;
+  }
+
+  .round_play {
+    font-size: 0.75em;
+  }
+
+  .bulletin {
+    font-size: 1em;
+  }
 
   .container {
     flex-direction: column;
