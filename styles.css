@@ -97,6 +97,18 @@ p {
   vertical-align: baseline;
 }
 
+.bulletin {
+  background-color: #ccf1cf;
+  color: #3c473d;
+  padding: 0.3em 0.4em;
+  border-radius: 0.2em;
+  display: inline;
+  font-size: 0.58em;
+  line-height: 2em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .fadedtext {
   color: #9da39e;
 }
