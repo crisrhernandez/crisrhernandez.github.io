@@ -99,26 +99,13 @@ p {
 .bulletin {
   background-color: #ccf1cf;
   color: #3c473d;
-  padding: 0.3em 0.6em;
+  padding: 0.3em 0.5em;
   border-radius: 0.2em;
   display: inline;
   font-size: 0.58em;
   line-height: 2em;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-}
-
-@keyframes blink {
-  0%   { content: ""; }
-  33%  { content: "."; }
-  66%  { content: ".."; }
-  100% { content: "..."; }
-}
-
-.dots::after {
-  display: inline-block;
-  animation: blink 1s steps(3, end) infinite;
-  content: "";
 }
 
 .fadedtext {
