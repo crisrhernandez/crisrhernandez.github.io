@@ -23,6 +23,20 @@ a:hover {
   color: #c2c8dc;
 }
 
+.latest_event_link {
+  color: #4cd256;
+  text-decoration: none;
+}
+
+.latest_event_link:hover {
+  color: #c2c8dc;
+}
+
+.latest_event_link:hover .round_new {
+  background-color: #c2c8dc;
+  color: #163F19;
+}
+
 .past_event_link {
   color: #f2f4f8;
   text-decoration: none;
@@ -41,7 +55,7 @@ p {
 }
 
 .activitylog p {
-  color: white;
+  color: #f2f4f8;
   font-size: 0.58em;
   line-height: 2em;
   border-bottom: 1px solid #c2c8dc;
